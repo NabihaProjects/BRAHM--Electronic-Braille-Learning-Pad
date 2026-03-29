@@ -1,0 +1,53 @@
+BRAHM – Electronic Braille Learning Pad
+Overview
+
+BRAHM (Braille Recognition and Audio Help Module) is an assistive educational device designed to help visually impaired individuals learn alphabets and numbers through tactile interaction and audio feedback. The system provides an intuitive learning interface where users can press tactile buttons representing letters and numbers, and the device responds with corresponding audio output.
+
+The learning pad consists of 36 tactile buttons, including 26 buttons for alphabets (A–Z) and 10 buttons for numbers (0–9). When a user presses a button, the system processes the input and plays the corresponding pronunciation through a speaker. This interactive approach enables learners to understand characters through touch and sound, making Braille education more accessible and engaging.
+
+The device is powered by a microcontroller such as the Arduino Uno R3, which reads the button inputs and communicates with an audio playback module like the DFPlayer Mini MP3 Module to produce the appropriate sound output.
+
+Key Features
+36 tactile input buttons
+26 alphabet buttons (A–Z)
+10 number buttons (0–9)
+Real-time audio feedback for each character
+Simple and intuitive interface designed for visually impaired users
+Portable and compact learning device
+Supports independent learning without visual assistance
+Hardware Components
+Arduino Uno R3
+DFPlayer Mini MP3 Module
+Speaker
+36 tactile push buttons
+Resistors
+Breadboard or PCB
+Jumper wires
+Power supply (USB or battery)
+System Architecture
+
+The system follows a simple input–process–output model:
+
+Button Input (36 Keys)
+        ↓
+Microcontroller Processing
+        ↓
+Character Identification
+        ↓
+Audio Playback Module
+        ↓
+Speaker Output
+Applications
+Braille learning for visually impaired students
+Assistive technology for inclusive education
+Educational tools for special schools and training centers
+Human–computer interaction projects
+Future Enhancements
+Integration with computers as a Braille keyboard
+Wireless connectivity using Bluetooth or Wi-Fi
+Multi-language audio support
+Interactive learning modes and quizzes
+Project Goal
+
+The primary objective of BRAHM is to provide an affordable, user-friendly, and interactive learning platform that enables visually impaired individuals to learn alphabets and numbers independently using tactile and auditory feedback.
+
